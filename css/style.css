@@ -1,0 +1,136 @@
+p {
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body {
+  /* width: device-width;
+  height: 100vh; */
+  font-family: arial;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.headertitles {
+  right: 1%;
+  position: absolute;
+  margin-top: 5px;
+}
+
+#btnentrar {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #4387fd;
+  border-radius: 5%;
+  margin-left: 10px;
+  width: 70px;
+  height: 30px;
+}
+
+.footertitles1 {
+  left: 1%;
+  position: absolute;
+}
+
+.footertitles {
+  right: 1%;
+  position: absolute;
+}
+
+.headerp1 {
+  display: inline-block;
+  /* position: relative; */
+  font-size: 80%;
+  right: 220px;
+  padding-left: 10px;
+}
+
+.headerp {
+  display: inline-block;
+  /* position: relative; */
+  right: 220px;
+  padding-left: 10px;
+}
+
+.midcontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#middle {
+  /* float: left; */
+  /* position: relative; */
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.searchbox {
+  width: 520px;
+  height: 35px;
+  /* box-shadow: 5px 5px 5px grey; */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border: none;
+}
+
+.btngoogle {
+  border: none;
+  background-color: #f2f2f2;
+  color: #757575;
+  /* font-family: Verdana; */
+  font-weight: bold;
+  height: 35px;
+  width: 160px;
+}
+
+#bottom {
+  /* float: left; */
+  position: absolute;
+  bottom: 52px;
+  height: 6%;
+  width: 99%;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+#bottom2 {
+  /* float: left; */
+  /* margin-top: 5px; */
+  position: absolute;
+  bottom: 6px;
+  height: 6%;
+  width: 99%;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bottomdiv {
+  display: inline-block;
+}
+
+.test {
+  display: inline-block;
+}
+
+/* .image {
+  border: 4px dotted;
+  width: 200px;
+  height:200px;
+  border-radius: 25%;
+}
+
+.image:hover {
+  border: 10px solid;
+  border-radius: 70%;
+
+} */
